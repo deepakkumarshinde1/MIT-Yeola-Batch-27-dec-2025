@@ -1,0 +1,216 @@
+/* 
+  This box is used to keep the button in center 
+*/
+.login-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+/* 
+  Styling for Login button 
+*/
+.login-btn {
+  width: 500px;
+  height: 90px;
+
+  background-color: #f27f7a; /* Button color */
+  color: white; /* Text color */
+
+  font-size: 40px; /* Text size */
+  border: none; /* Remove border */
+  border-radius: 20px; /* Rounded corners */
+
+  cursor: pointer; /* Hand cursor on hover */
+}
+
+/* 
+  Change color when mouse is over button 
+*/
+.login-btn:hover {
+  background-color: #ea6e69;
+}
+
+/* 
+  Small effect when button is clicked 
+*/
+.login-btn:active {
+  transform: scale(0.98);
+}
+
+/* 
+  Common button style (like .btn in Bootstrap)
+*/
+.btn {
+  padding: 12px 24px;
+  font-size: 16px;
+
+  border: none;
+  border-radius: 6px;
+
+  cursor: pointer;
+  color: #ffffff;
+
+  margin: 6px;
+}
+
+/* Button colors */
+
+/* Primary - Blue */
+.btn-primary {
+  background-color: #0d6efd;
+}
+.btn-primary:hover {
+  background-color: #0b5ed7;
+}
+
+/* Success - Green */
+.btn-success {
+  background-color: #198754;
+}
+.btn-success:hover {
+  background-color: #157347;
+}
+
+/* Danger - Red */
+.btn-danger {
+  background-color: #dc3545;
+}
+.btn-danger:hover {
+  background-color: #bb2d3b;
+}
+
+/* Warning - Yellow */
+.btn-warning {
+  background-color: #ffc107;
+  color: #000000;
+}
+.btn-warning:hover {
+  background-color: #ffca2c;
+}
+
+/* Info - Sky Blue */
+.btn-info {
+  background-color: #0dcaf0;
+  color: #000000;
+}
+.btn-info:hover {
+  background-color: #31d2f2;
+}
+
+/* Dark - Black */
+.btn-dark {
+  background-color: #212529;
+}
+.btn-dark:hover {
+  background-color: #1c1f23;
+}
+
+/* Light - Light Grey */
+.btn-light {
+  background-color: #f8f9fa;
+  color: #000000;
+}
+.btn-light:hover {
+  background-color: #e2e6ea;
+}
+
+/* Main card */
+.profile-card {
+  width: 300px;
+  padding: 20px;
+  border-radius: 16px;
+
+  /* Light standard blue shade */
+  background-color: #f2f7ff;
+  border: 1px solid #cfe0ff;
+
+  /* Proper soft shadow */
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+/* Profile image circle */
+.profile-img {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto 15px;
+
+  background-color: #e0e0e0;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-img > img {
+  width: inherit;
+  height: inherit;
+  border-radius: inherit;
+}
+
+/* User icon inside image */
+.profile-img i {
+  font-size: 40px;
+  color: #777;
+}
+
+/* User name */
+.user-name {
+  margin: 0;
+  font-size: 20px;
+}
+
+/* Designation */
+.designation {
+  margin: 6px 0;
+  font-size: 14px;
+  color: #555;
+}
+
+/* Rating stars */
+.rating {
+  color: #ccc;
+  margin-bottom: 15px;
+}
+
+/* Key points list */
+.key-points {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  text-align: left;
+  font-size: 14px;
+}
+
+/* Each key point */
+.key-points li {
+  padding: 8px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Icon spacing */
+.key-points i {
+  margin-right: 8px;
+  color: #0d6efd;
+}
+
+/* Remove border from last item */
+.key-points li:last-child {
+  border-bottom: none;
+}
+
+.zoom-card {
+  /* Smooth animation */
+  transition: transform 0.3s ease;
+}
+
+/* Zoom effect */
+.zoom-card:hover {
+  transform: translateX(10px);
+}
